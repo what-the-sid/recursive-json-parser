@@ -72,7 +72,10 @@ API to parse nested structure of data using recursive approach.
 └── webpack.config.js
 ```
 
-## Sample Payload:
+## API Details:
+#### API Endpoint: `/parse-json`
+
+#### Sample Payload:
 
 ```
 {
@@ -100,7 +103,7 @@ API to parse nested structure of data using recursive approach.
 }
 ```
 
-## Sample Response:
+#### Sample Response:
 
 ```
 {
