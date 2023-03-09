@@ -6,6 +6,7 @@ import validMissingData from '../fixtures/json-mapper/valid-with-missing.json';
 import invalidData from '../fixtures/json-mapper/invalid.json';
 import successResponse from '../fixtures/json-mapper/success-response.json';
 
+// Tests for scripts whether the erros are handled correctly
 describe('JSON Parser Error Handling:::', () => {
   it('ERROR:invalid payload', async () => {
     const handler = new Handler()
@@ -21,6 +22,7 @@ describe('JSON Parser Error Handling:::', () => {
   });
 });
 
+// Tests for scripts whether the data is parsed correctly
 describe('JSON Parser Loading Data:::',() => {
   it('SUCCESS: Parse data', async () => {
     const handler = new Handler
