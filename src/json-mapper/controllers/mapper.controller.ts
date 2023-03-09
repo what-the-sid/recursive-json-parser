@@ -1,3 +1,5 @@
+import { Errors } from '@lib/log/interfaces';
+
 class MapperController {
 
   private cre:RegExp;
