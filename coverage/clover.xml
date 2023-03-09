@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678332997775" clover="3.2.0">
+  <project timestamp="1678332997776" name="All files">
+    <metrics statements="33" coveredstatements="31" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="5" elements="47" coveredelements="45" complexity="0" loc="33" ncloc="33" packages="3" files="3" classes="3"/>
+    <package name="lib.log.interfaces">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/sidharth/Downloads/telestra/lib/log/interfaces/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.json-mapper">
+      <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/sidharth/Downloads/telestra/src/json-mapper/index.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.json-mapper.controllers">
+      <metrics statements="17" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="mapper.controller.ts" path="/Users/sidharth/Downloads/telestra/src/json-mapper/controllers/mapper.controller.ts">
+        <metrics statements="17" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
