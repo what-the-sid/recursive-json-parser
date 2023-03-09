@@ -2,6 +2,7 @@ const { Handler } = require('../../json-mapper')
 
 import validData from '../fixtures/json-mapper/valid.json';
 import validNotArrayData from '../fixtures/json-mapper/valid-without-array.json';
+import validMissingData from '../fixtures/json-mapper/valid-with-missing.json';
 import invalidData from '../fixtures/json-mapper/invalid.json';
 import successResponse from '../fixtures/json-mapper/success-response.json';
 
@@ -42,5 +43,31 @@ describe('JSON Parser Loading Data:::',() => {
         },
         "error": false
       });
+  });
+
+  it('SUCCESS: Parse data without reference data', async () => {
+    const handler = new Handler
+
+    const response = await handler.mapper(validMissingData);
+
+    expect(response).toStrictEqual({
+        "data": {
+          "name": "subscriber",
+          "valueType": "array",
+          "value": [
+              {
+                "name": "MN",
+                "valueType": "string",
+                "value": "{REF_MSISDN}"
+              },
+              {
+                "name": "IM",
+                "valueType": "string",
+                "value": "{REF_IMSI}"
+              }
+            ]
+          },
+          "error": false
+        });
   });
 })

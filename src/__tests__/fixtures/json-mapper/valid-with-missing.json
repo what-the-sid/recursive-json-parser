@@ -1,0 +1,20 @@
+{
+    "payload": {
+        "name": "subscriber",
+        "valueType": "array",
+        "value": [
+            {
+                "name": "MN",
+                "valueType": "string",
+                "value": "{REF_MSISDN}"
+            },
+            {
+                "name": "IM",
+                "valueType": "string",
+                "value": "{REF_IMSI}"
+            }
+        ]
+    },
+    "referenceData": {
+    }
+}

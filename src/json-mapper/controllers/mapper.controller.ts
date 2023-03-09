@@ -19,7 +19,7 @@ class MapperController {
           }
           else{
             const matched = i.value.match(this.cre);
-            if(matched){
+            if(matched && Object.keys(ref).indexOf(matched[1])>=0){
               i.value = i.value.replace(this.wre,ref[matched[1]]);
             }
           }
