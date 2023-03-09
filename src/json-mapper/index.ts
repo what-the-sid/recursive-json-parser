@@ -1,6 +1,6 @@
 import Joi from 'joi';
 import { Errors } from '@lib/log/interfaces';
-import { IDataInput, IDataResolved, IHandler, IErrorResponse, IPayloadBody } from './interfaces/handler.interface';
+import { IDataInput, IDataResolved, IHandler, IErrorResponse } from './interfaces/handler.interface';
 
 import MapperController from './controllers/mapper.controller';
 
