@@ -18,7 +18,9 @@ describe('JSON Parser Error Handling:::', () => {
         "category": "INVALID-INPUT"
       });
   });
+});
 
+describe('JSON Parser Loading Data:::',() => {
   it('SUCCESS: Parse data', async () => {
     const handler = new Handler
 
@@ -41,4 +43,4 @@ describe('JSON Parser Error Handling:::', () => {
         "error": false
       });
   });
-});
+})
