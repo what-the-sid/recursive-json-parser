@@ -73,7 +73,11 @@ API to parse nested structure of data using recursive approach.
 ```
 
 ## API Details:
-#### API Endpoint: `/parse-json`
+#### Endpoint: 
+`/parse-json`
+
+### Method:
+`POST`
 
 #### Sample Payload:
 
