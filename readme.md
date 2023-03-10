@@ -25,7 +25,7 @@ API to parse nested structure of data using recursive approach.
 
 - Run app on local:
 
-`npm run start`
+`npm run develop`
 
 - Check Lints or Faults:
 
