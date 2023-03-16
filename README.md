@@ -6,11 +6,11 @@ API to parse nested structure of data using recursive approach.
 ## Install
 - Run Docker Build command:
 
-`docker build . -t root/telstra-web-app `
+`docker build . -t root/web-app `
 
 - Docker run server:
 
-`docker run -p 5000:5000 -d root/telstra-web-app`
+`docker run -p 5000:5000 -d root/web-app`
 
 
 ## Develop:
