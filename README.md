@@ -1,5 +1,5 @@
 
-# Telstra JSON parser
+# Recursive JSON parser
 
 API to parse nested structure of data using recursive approach.
 
